@@ -1,11 +1,15 @@
+from greets import greetings
+from translate import Translator
+
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from greets import greetings
+
+translator = Translator(to_lang='pt')
 
 for g in greetings:
-    print(g.title())
+    print(translator.translate(g).title())
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
