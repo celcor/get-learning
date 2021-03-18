@@ -5,7 +5,7 @@
 from greets import greetings
 
 for g in greetings:
-    print(g.title() + ":)")
+    print(g.title())
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
